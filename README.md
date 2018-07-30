@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="js/jquery.min.js" type="text/javascript"></script>
 
     <link rel="stylesheet" href="main.css">
-<title>Welcome to my personal website !</title>
 </head>
 <body>
 

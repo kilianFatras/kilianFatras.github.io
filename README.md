@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+<h1>Welcome to my personal website !</h1>
+</head>
+<body>
 
-You can use the [editor on GitHub](https://github.com/kilianFatras/kilianFatras.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<img src="kilian.png" alt = "photo" height="300" width="300">
+ 
+<ul>
+<li><a href="#About" id = "About"> About </a></li>
+<li><a href="#Research_interests" id = "Research_interests"> Research interests </a></li>
+<li><a href="#Papers" id = "Papers"> Papers </a></li>
+<li><a href="#Coworkers" id = "Coworkers"> Coworkers </a></li>
+<li><a href="#Workshop" id = "Workshop"> Workshop </a></li>
+<li><a href="#Networks" id = "Networks"> Networks </a></li>
+<li><a href="#Contacts" id = "Contacts"> Contacts </a></li>
+</ul>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div id="About" onclick="window.location.hash='About'; ">
 
-### Markdown
+<h2> <center>About</center> </h2>
+<p>I am currently a graduate student working at University of British Columbia under the supervision of Mark Schmidt.
+I am pursuing a dooble degree between ENSTA ParisTech and Ecole Polytechnique in applied mathematics and machine learning.
+During this dooble degree, I was a UC Berkeley student for the fall semester 2018. 
+My work focuses on <b>optimization for machine learning</b> and the interaction between <b>optimal transport and machine learning</b>.
+</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div id="Research_interests" onclick="window.location.hash='Research_interests'; "> 
+<h2> <center>Research interests</center> </h2>
 
-```markdown
-Syntax highlighted code block
+<p>
+My research mostly focus on how adapt new optimization methods for deep learning purpose.
+I am also interested by generative models and how optimization and optimal transport can contribute to this.
+</p>
 
-# Header 1
-## Header 2
-### Header 3
+<div id="Papers" onclick="window.location.hash='Papers'; ">
+<h2> <center>Papers</center> </h2>
+<p><a href="https://arxiv.org/abs/1806.07294">[Variance Reduced Three Operator Splitting]</a></p>
+<p>Abstract : Despite the rise to fame of incremental variance-reduced methods in recent years, their use in nonsmooth optimization is still limited to few simple cases. This is due to the fact that existing methods require to evaluate the proximity operator for the nonsmooth terms, which can be a costly operation for complex penalties. In this work we introduce two variance-reduced incremental methods based on SAGA and SVRG that can efficiently take into account complex penalties which can be expressed as a sum of proximal terms. This includes penalties such as total variation, group lasso with overlap and trend filtering, to name a few. Furthermore, we also develop sparse variants of the proposed algorithms which can take advantage of sparsity in the input data. Like other incremental methods, it only requires to evaluate the gradient of a single sample per iteration, and so is ideally suited for large scale applications. We provide a convergence rate analysis for the proposed methods and show that they converge with a fixed step-size, achieving in some cases the same asymptotic rate as their full gradient variants. Empirical benchmarks on 3 different datasets illustrate the practical advantages of the proposed methods.</p>
+    
+<div id="Workshop" onclick="window.location.hash='Workshop'; ">
+<h2> <center>Workshop</center> </h2>
+<p>This section is empty for the moment !</p>
 
-- Bulleted
-- List
+    
+<div id="Coworkers" onclick="window.location.hash='Coworkers'; ">
+<h2><center>Coworkers</center> </h2>
+    <p>My PhD directors :
+<a href="http://people.irisa.fr/Nicolas.Courty/">[Nicolas Courty]</a>
+<a href="https://remi.flamary.com/">[Rémi Flamary]</a> </p>
+<p>
+    Friend and former supervisor : 
+<a href="http://fa.bianp.net/">[Fabian Pedregosa]</a>
+</p>
+    
+<div id="Networks" onclick="window.location.hash='Networks'; ">
+<h2> <center>Networks</center> </h2>
+<p><a href="https://www.linkedin.com/in/kilianfatras">[LinkedIn]</a>, <a href="https://github.com/kilianFatras"> [GitHub]</a>, <a href="https://twitter.com/FatrasKilian">[Twitter]</a></p>
 
-1. Numbered
-2. List
+<div id="Contacts" onclick="window.location.hash='Contacts'; ">
+<h1> <center>Contacts</center> </h1>
+<p>kilian(dot)fatras[at]gmail(dot)com</p>
 
-**Bold** and _Italic_ and `Code` text
+</body>
+</html>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kilianFatras/kilianFatras.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

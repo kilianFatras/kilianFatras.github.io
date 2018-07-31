@@ -1,85 +1,157 @@
-html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
-    -webkit-font-smoothing: antialiased;
-}
-
 body {
-    background: #fff;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    color: #545454;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-family: fertigo,lato,Vollkorn,Ubuntu,sans-serif !important;
+    color: #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color : #fff
+    /*background-image : url('background/footer_lodyas/footer_lodyas.png');*/
+}
+
+.authors {
     font-size: 16px;
-    line-height: 1.5;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #333;
-    font-weight: 600;
-    line-height: 1.3;
-}
-
-h2 {
-    margin-top: 1.3em;
 }
 
 a {
-    color: #0083e8;
-}
-
-b, strong {
-    font-weight: 600;
-}
-
-samp {
-    display: none;
-}
-
-img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: block;
-    margin: 1.3em auto;
-    max-width: 95%;
-}
-
-@keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    color: #4b738e;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #222;
+a:hover {
+    color: #324c5f;
 }
+
+a.todo:hover {
+    color: #AA1111;
+}
+
+p {
+    line-height: 1.25em;
+}
+
+.paper {
+    margin-bottom: 1em;
+    padding: 0px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  /*  background-color: #ECECEA; */
+    /*ackground-image : url('background/shattered/shattered.png'); */
+    background-color: #fff
+    text-align: justify;
+}
+
+#photo {
+    height: 160px;
+    float: left;
+    background-color: #fff;
+}
+
+#contact {
+    margin-left: 0px;
+    margin-top: 8px;
+    /*margin-bottom: 60px;*/
+}
+
+#social-link {
+    margin-top: 0px;
+    /*margin-bottom: 60px;*/
+}
+
+#email {
+    margin-top: 15px;
+    font-family: Ubuntu;
+    /*font-variant: small-caps;*/
+    font-size: 14px;
+}
+
+h1 {
+    /*font-variant: small-caps;*/
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    color: #003366;
+    font-family: "lato";
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #003366;
+    border: none;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+}
+
+#page-head {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+
+img {
+    max-width:130%;
+    max-height:130%;
+    /*border: 1px solid;*/
+}
+
+.section-heading {
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    border-bottom: solid 1px #ccc;
+}
+
+.section-heading h2 {
+    display: inline;
+    color: #4b738e;
+    font-size: 1em;
+}
+
+.title {
+    font-weight: bold;
+    color: #222;
+}
+
+.in span {
+    font-style: italic;
+}
+
+.links {
+}
+
+.course {
+    margin-bottom: 0.5em;
+}
+
+p {
+    text-align: justify;
+}
+
+
+

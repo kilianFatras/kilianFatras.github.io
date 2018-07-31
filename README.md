@@ -66,7 +66,7 @@
               <p>I am currently a graduate student interning at University of British Columbia under the supervision of Pr. <a href="http://www.cs.ubc.ca/~schmidtm/">Mark Schmidt</a>.
                 I am pursuing a double degree between ENSTA ParisTech and Ecole Polytechnique in applied mathematics and machine learning.
                 During this double degree, I was a UC Berkeley student for the fall semester 2018 where I had the chance to meet my former supervisor <a href="http://fa.bianp.net/">Fabian Pedregosa</a>.
-                Next November, I will start a PhD in optimal transport and machine learning under the supervsion of Pr. <a href="http://people.irisa.fr/Nicolas.Courty/">Nicolas Courty</a> and Pr. <a href="https://remi.flamary.com/">Rémi Flamary</a> at INRIA Rennes. You can find my <a href="pdf/CV_kilian_fatras.pdf" class="">resume</a> here.
+                Next November, I will start a PhD in optimal transport and machine learning under the supervsion of Pr. <a href="http://people.irisa.fr/Nicolas.Courty/">Nicolas Courty</a> and Pr. <a href="https://remi.flamary.com/">Rémi Flamary</a> at INRIA Rennes. You can find my <a href="pdf/cv_kilian_fatras.pdf" class="">resume</a> here.
                 </p>
             </div>
             <div class="row"><a name="research_interests"></a>

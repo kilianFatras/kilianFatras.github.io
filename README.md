@@ -10,7 +10,6 @@
     <title>Kilianf Fatras</title>
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
     <link href="main.css" rel="stylesheet">
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -107,11 +106,12 @@
               </div>
               <div class="row">
                 <hr class="bigHr">
-                <center><h3><a name="Projects"></a>Projects</h3></center>
+                <center><h3><a name="Projects"></a>Projects and Volunteering</h3></center>
                 <hr>
-                        <p>Here is a list of the different projects I contributed to:</p>
+                        <p>Here is a list of my volunteering activities and the different projects I contributed to:</p>
                     <ol style="list-style-type:circle">
-                    <b><a href="https://pot.readthedocs.io/en/stable/">POT</a>: Python For Optimal Transport</b> is an open source library for optimal transport in Python.
+                    <b>Python for Optimal Transport <a href="https://pot.readthedocs.io/en/stable/">(POT)</a> </b> is an open source library for optimal transport in Python.
+                        <b>Reviewer</b> for <b><a href="http://www.jmlr.org/">JMLR</a></b>.
                     </ol>
                 </div>
               <div class="row">

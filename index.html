@@ -54,7 +54,7 @@
             </div>
             <h1>Kilian Fatras</h1>
             <p class="lead">PhD Student<br>
-                IRISA-INRIA Rennes & Obleix<br>
+                IRISA-INRIA Rennes & Obelix<br>
             </p>
           </div>
         </div>

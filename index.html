@@ -29,6 +29,7 @@
             <li><a href="#research_interests" class="">Research interests</a></li>
             <li><a href="#papers" class=" active">Papers</a></li>
             <li><a href="#Workshops" class="">Workshops</a></li>
+            <li><a href="#Workshops" class="">Talks</a></li>
             <li><a href="#Projects" class="">Projects</a></li>
             <li><a href="#contact" class="">Contacts</a></li>
           </ul>
@@ -64,7 +65,7 @@
             <hr>
               <p>Welcome to my personal website !</p>
               <p>
-                I am a PhD candidate under the supervision of Pr. <a href="http://people.irisa.fr/Nicolas.Courty/">Nicolas Courty</a> and Pr. <a href="https://remi.flamary.com/">Rémi Flamary</a> at IRISA-INRIA Panama and Obelix. My research focuses on optimal transport, machine learning and optimization. </p>
+                I am a second year PhD candidate under the supervision of Pr. <a href="http://people.irisa.fr/Nicolas.Courty/">Nicolas Courty</a> and Pr. <a href="https://remi.flamary.com/">Rémi Flamary</a> at IRISA-INRIA Panama and Obelix. My research focuses on optimal transport, machine learning and optimization with applications in large scale settings and noisy labels.</p>
 
 
                 <p>
@@ -90,134 +91,55 @@
 
             <p> <i><strong> [NEW!] Learning with minibatch Wasserstein: asymptotic and gradient properties</strong></i><br>
             <i>Kilian Fatras, Younes Zine, Remi Flamary, Rémi Gribonval and Nicolas Courty</i><br>
-            <i>Preprint</i><br>
+            Preprint<br>
 
-           <div class="panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-WAT-1">
-        Abstract</a>
-      </h4>
-    </div>
-    <div id="collapse-WAT-1" class="panel-collapse collapse">
-      <div class="panel-body">       <p><b>Abstract</b>: Optimal transport distances are powerful tools to compare probability distributions and have found many applications in machine learning. Yet their algorithmic complexity prevents their direct use on large scale datasets. To overcome this challenge, practitioners compute these distances on minibatches {\em ie} they average the outcome of several smaller optimal transport problems. We propose in this paper an analysis of this practice, which effects are not well understood so far. We notably argue that it is equivalent to an implicit regularization of the original problem, with appealing properties such as unbiased estimators, gradients and a concentration bound around the expectation, but also with defects such as loss of distance property. Along with this theoretical analysis, we also conduct empirical experiments on gradient flows, GANs or color transfer that highlight the practical interest of this strategy.</p></div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a a href="https://arxiv.org/abs/1910.04091" >Paper</a>
-      </h4>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-WAT-2">
-        Bibtex</a>
-      </h4>
-    </div>
-    <div id="collapse-WAT-2" class="panel-collapse collapse">
-
-    <pre>
+           <div class="btn-group-xs">
+                <a a class="btn btn-default" href="https://arxiv.org/abs/1910.04091">Paper</a>
+                <a a href="#/" class="btn btn-default" data-toggle="collapse" data-target=".bibtex-3">bibtex</a>
+<pre class="bibtex-3 collapse">
 @article{fatras2019learnwass,
 author = {Fatras, Kilian and Zine, Younes and Flamary, Rémi and Gribonval, Rémi and Courty, Nicolas},
 title = {Learning with minibatch Wasserstein: asymptotic and gradient properties},
 year = {2019 (Submited)}
 }</pre>
     </div>
-  </div>
-</div>
-              
+    </br>
       <p> <i><strong> [NEW!] Wasserstein Adversarial Regularization (WAR) on label noise</strong></i><br>
             <i>Bharath Damodaran*, Kilian Fatras*, Sylvain Lobry, Remi Flamary, Devis Tuia and Nicolas Courty</i><br>
-            <i>Preprint</i><br>
             <i>* equal contribution</i><br>
+            Preprint<br>
 
-           <div class="panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-WAT-1">
-        Abstract</a>
-      </h4>
-    </div>
-    <div id="collapse-WAT-1" class="panel-collapse collapse">
-      <div class="panel-body">       <p><b>Abstract</b>: Noisy labels often occur in vision datasets, especially when they are obtained from crowdsourcing or Web scraping. We propose a new regularization method, which enables learning robust classifiers in presence of noisy data. To achieve this goal, we propose a new adversarial regularization scheme based on the Wasserstein distance. Using this distance allows taking into account specific relations between classes by leveraging the geometric properties of the labels space. Our Wasserstein Adversarial Regularization (WAR) encodes a selective regularization, which promotes smoothness of the classifier between some classes, while preserving sufficient complexity of the decision boundary between others. We first discuss how and why adversarial regularization can be used in the context of label noise and then show the effectiveness of our method on five datasets corrupted with noisy labels: in both benchmarks and real datasets, WAR outperforms the state-of-the-art competitors.</p></div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a a href="https://arxiv.org/abs/1904.03936" >Paper</a>
-      </h4>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-WAT-2">
-        Bibtex</a>
-      </h4>
-    </div>
-    <div id="collapse-WAT-2" class="panel-collapse collapse">
+           <div class="btn-group-xs">
+                <a a class="btn btn-default" href="https://arxiv.org/abs/1904.03936">Paper</a>
+                <a a href="#/" class="btn btn-default" data-toggle="collapse" data-target=".bibtex-2">bibtex</a>
 
-    <pre>
+    <pre class="bibtex-2 collapse">
 @article{damodaran2019war,
 author = {Bhushan Damodaran, Bharath and Fatras, Kilian and Lobry, Sylvain and Flamary, Rémi and Tuia, Devis and Courty, Nicolas},
 title = {Wasserstein Adversarial Regularization (WAR) on label noise},
 year = {2019 (Submited)}
 }</pre>
     </div>
-  </div>
-</div>
-
+            </br>
               
       <h4 style="margin-bottom:30px"><i>Optimization</i></h4>
 	   <p> <i><strong> Proximal Splitting Meets Variance Reduction</strong></i><br>
             <i>Fabian Pedregosa, Kilian Fatras and Mattia Casotto.</i><br>
            Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics <a href="http://www.aistats.org/">(AISTATS)</a>, 2019<br>
 
-           <div class="panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-WAT-3">
-        Abstract</a>
-      </h4>
-    </div>
-    <div id="collapse-WAT-3" class="panel-collapse collapse">
-      <div class="panel-body">       <p><b>Abstract</b>: Despite the rise to fame of incremental variance-reduced methods in recent years, their use in nonsmooth optimization is still limited to few simple cases. This is due to the fact that existing methods require to evaluate the proximity operator for the nonsmooth terms, which can be a costly operation for complex penalties. In this work we introduce two variance-reduced incremental methods based on SAGA and SVRG that can efficiently take into account complex penalties which can be expressed as a sum of proximal terms. This includes penalties such as total variation, group lasso with overlap and trend filtering, to name a few. Furthermore, we also develop sparse variants of the proposed algorithms which can take advantage of sparsity in the input data. Like other incremental methods, it only requires to evaluate the gradient of a single sample per iteration, and so is ideally suited for large scale applications. We provide a convergence rate analysis for the proposed methods and show that they converge with a fixed step-size, achieving in some cases the same asymptotic rate as their full gradient variants. Empirical benchmarks on 3 different datasets illustrate the practical advantages of the proposed methods.</p></div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a a href="https://arxiv.org/abs/1806.07294" >Paper</a>
-      </h4>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-        Bibtex</a>
-      </h4>
-    </div>
-    <div id="collapse2" class="panel-collapse collapse">
+              <div class="btn-group-xs">
+                <a a class="btn btn-default" href="https://arxiv.org/abs/1806.07294">Paper</a>
+                <a a href="#/" class="btn btn-default" data-toggle="collapse" data-target=".bibtex-1">bibtex</a>
 
-    <pre>
+    <pre class="bibtex-1 collapse">
 @InProceedings{Pedregosa2019PSVR,
       author      = {Pedregosa, Fabian and Fatras, Kilian and Casotto, Mattia},
       title       = {Proximal Splitting Meets Variance Reduction},
       booktitle   = {AISTATS},
       year        = {2019}
-      note        = {(to appear)} 
                   }</pre>
     </div>
-  </div>
-</div>
+
             <br>
             </div>
 
@@ -227,11 +149,17 @@ year = {2019 (Submited)}
                 <hr>
                 This section is empty for the moment !
               </div>
+            <div class="row">
+                <hr class="bigHr">
+                <center><h3><a name="Talks"></a>Talks</h3></center>
+                <hr>
+                09/07/19 - <a a href="http://gdr-isis.fr/index.php?page=reunion&idreunion=395">GDR-ISIS : Transport optimal en apprentissage statistique et traitement du signal</a>
+              </div>
               <div class="row">
                 <hr class="bigHr">
                 <center><h3><a name="Projects"></a>Projects and Volunteering</h3></center>
                 <hr>
-                        <p>Here is a list of my volunteering activities and the different projects I contributed to:</p>
+                        <p>Here is a list of my volunteering activities and the different projects I contribute to:</p>
                     <ol style="list-style-type:circle">
                         <li><b>Python for Optimal Transport <a href="https://pot.readthedocs.io/en/stable/">(POT)</a> </b> is an open source library for optimal transport in Python.</li>
 

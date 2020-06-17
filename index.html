@@ -128,21 +128,31 @@
 
             <p> <i><strong> Learning with minibatch Wasserstein: asymptotic and gradient properties</strong></i><br>
             <i>Kilian Fatras, Younes Zine, Remi Flamary, Rémi Gribonval and Nicolas Courty</i><br>
-            Proceedings of the 23nd International Conference on Artificial Intelligence and Statistics <a href="http://www.aistats.org/">(AISTATS)</a>, 2020 (to appear)<br>
+            Proceedings of the 23nd International Conference on Artificial Intelligence and Statistics <a href="http://www.aistats.org/">(AISTATS)</a>, 2020<br>
 
            <div class="btn-group-xs">
-                <a a class="btn btn-default" href="https://arxiv.org/abs/1910.04091">Paper</a>
+                <a a class="btn btn-default" href="http://proceedings.mlr.press/v108/fatras20a.html">Paper</a>
                <a a class="btn btn-default" href="https://github.com/kilianFatras/minibatch_Wasserstein">Code</a>
                <a a class="btn btn-default" href="https://github.com/kilianFatras/minibatch_Wasserstein/blob/master/communication/mb_slides.pdf">Slides</a>
                <a a class="btn btn-default" href="https://github.com/kilianFatras/minibatch_Wasserstein/blob/master/communication/MBWasserstein_poster.pdf">Poster</a>
                <a a class="btn btn-default" href="https://medium.com/p/learning-with-minibatch-wasserstein-d87dcf52efb5?source=email-d0d7857135bb--writer.postDistributed&sk=4c30efd3442780edf7ca140080557476">Blog</a>
                 <a a href="#/" class="btn btn-default" data-toggle="collapse" data-target=".bibtex-3">bibtex</a>
 <pre class="bibtex-3 collapse">
-@InProceedings{fatras2019learnwass,
-author    = {Fatras, Kilian and Zine, Younes and Flamary, Rémi and Gribonval, Rémi and Courty, Nicolas},
-title     = {Learning with minibatch Wasserstein: asymptotic and gradient properties},
-booktitle = {AISTATS},
-year      = {2020 (To appear)}
+@InProceedings{pmlr-v108-fatras20a,
+  title = 	 {Learning with minibatch Wasserstein  : asymptotic and gradient properties},
+  author = 	 {Fatras, Kilian and Courty, Nicolas and Flamary, R\'emi and Zine, Younes and Gribonval, Remi},
+  booktitle = 	 {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {2131--2141},
+  year = 	 {2020},
+  editor = 	 {Chiappa, Silvia and Calandra, Roberto},
+  volume = 	 {108},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Online},
+  month = 	 {26--28 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v108/fatras20a/fatras20a.pdf},
+  url = 	 {http://proceedings.mlr.press/v108/fatras20a.html},
+  abstract = 	 {Optimal transport distances are powerful tools to compare probability distributions and have found many applications in machine learning. Yet their algorithmic complexity prevents their direct use on large scale datasets. To overcome this challenge, practitioners compute these distances on minibatches i.e., they average the outcome of several smaller optimal transport problems. We propose in this paper an analysis of this practice, which effects are not well understood so far. We notably argue that it is equivalent to an implicit regularization of the original problem, with appealing properties such as unbiased estimators, gradients and a concentration bound around the expectation, but also with defects such as loss of distance property. Along with this theoretical analysis, we also conduct empirical experiments on gradient flows, GANs or color transfer that highlight the practical interest of this strategy.}
 }</pre>
     </div>
     </br>

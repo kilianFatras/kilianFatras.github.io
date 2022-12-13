@@ -193,23 +193,22 @@
               <a a class="btn btn-default" href="https://arxiv.org/abs/2206.11180">ArXiv</a>
               <a a href="#/" class="btn btn-default" data-toggle="collapse" data-target=".bibtex-8">Bibtex</a>
   <pre class="bibtex-8 collapse">
-@misc{https://doi.org/10.48550/arxiv.2206.11180,
-  doi = {10.48550/ARXIV.2206.11180},
 
-  url = {https://arxiv.org/abs/2206.11180},
-
-  author = {Fatras, Kilian and Naganuma, Hiroki and Mitliagkas, Ioannis},
-
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
-
-  title = {Optimal transport meets noisy label robust loss and MixUp regularization for domain adaptation},
-
-  publisher = {arXiv},
-
-  year = {2022},
-
-  copyright = {Creative Commons Attribution 4.0 International}
-}
+    @InProceedings{fatras22aMixOT,
+      title = 	 {Optimal Transport meets Noisy Label Robust Loss and MixUp Regularization for Domain Adaptation},
+      author =       {Fatras, Kilian and Naganuma, Hiroki and Mitliagkas, Ioannis},
+      booktitle = 	 {Proceedings of The 1st Conference on Lifelong Learning Agents},
+      pages = 	 {966--981},
+      year = 	 {2022},
+      editor = 	 {Chandar, Sarath and Pascanu, Razvan and Precup, Doina},
+      volume = 	 {199},
+      series = 	 {Proceedings of Machine Learning Research},
+      month = 	 {22--24 Aug},
+      publisher =    {PMLR},
+      pdf = 	 {https://proceedings.mlr.press/v199/fatras22a/fatras22a.pdf},
+      url = 	 {https://proceedings.mlr.press/v199/fatras22a.html},
+      abstract = 	 {It is common in computer vision to be confronted with domain shift: images which have the same class but different acquisition conditions. In domain adaptation (DA), one wants to classify unlabeled target images using source labeled images. Unfortunately, deep neural networks trained on a source training set perform poorly on target images which do not belong to the training domain. One strategy to improve these performances is to align the source and target image distributions in an embedded space using optimal transport (OT). To compute OT, most methods use the minibatch optimal transport approximation which causes negative transfer, i.e. aligning samples with different labels, and leads to overfitting. In this work, we mitigate negative alignment by explaining it as a noisy label assignment to target images. We then mitigate its effect by appropriate regularization. We propose to couple the MixUp regularization with a loss that is robust to noisy labels in order to improve domain adaptation performance. We show in an extensive ablation study that a combination of the two techniques is critical to achieve improved performance. Finally, we evaluate our method, called mixunbot, on several benchmarks and real-world DA problems.}
+    }
   </pre>
       </div>
       </br>

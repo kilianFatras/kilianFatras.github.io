@@ -59,11 +59,11 @@ p {
 
 ## **About Me**
 
-I am a **machine learning research scientist** at [EvolutionaryScale](https://www.evolutionaryscale.ai/). Leveraging my expertise in **computational biology** and **generative AI**, I build **foundation models**—from protein language models to diffusion-based architectures—to **understand biological systems** and **design functional proteins** for real-world applications in **drug discovery** and **structural biology**.
+I am a **machine learning research scientist** at [EvolutionaryScale](https://www.evolutionaryscale.ai/). I work at the intersection of machine learning and computational biology. In a nutshell, I train **foundation models**—from protein language models to diffusion-based architectures—to **understand biological systems** and **design functional proteins** for real-world applications in **drug discovery** and **structural biology**.
 
-Previously, I was a **Postdoctoral Fellow** at **Mila** and **McGill University** in Montréal, where I worked under the mentorship of **Prof. Adam Oberman** and **Prof. Ioannis Mitliagkas**. My research during this time focused on **generative modeling**, **distribution shifts**, and **optimal transport**. I began applying these methods to **single-cell trajectory inference** and **protein design**, and I co-created the open-source **[TorchCFM](https://github.com/torchcfm/torchcfm)** library to share our work on **Flow Matching generative models**.
+Previously, I was a **Postdoctoral Fellow** at **Mila** and **McGill University** in Montréal, where I worked with **Prof. Adam Oberman** and **Prof. Ioannis Mitliagkas**. My research during this time focused on **generative modeling**, **distribution shifts**, and **optimal transport**. I started applying some of these methods on biological applications like **single-cell trajectory inference** and **protein design**. I also co-created the open-source **[TorchCFM](https://github.com/torchcfm/torchcfm)** package to share our work on **Flow Matching models**.
 
-I completed my **PhD** at **INRIA Rennes** in Brittany, France, under the supervision of **Prof. Nicolas Courty** and **Prof. Rémi Flamary**. My work explored the intersection of **optimal transport** and **deep learning**, with applications to **domain adaptation**, **noisy label learning**, and **generative modeling**. I developed expertise in **minibatch approximations for optimal transport**, and my [thesis defense](https://www.youtube.com/watch?v=paqpidEnnHw) and [manuscript](pdf/thesis_kf.pdf) are both available online.
+I completed my **PhD** at **INRIA Rennes** in Brittany, France, under the supervision of **Prof. Nicolas Courty** and **Prof. Rémi Flamary**. My work explored the intersection of **optimal transport** and **deep learning**, with applications to **domain adaptation**, **learning with noisy label**, and **generative modeling**. Another core element of my PhD was the study of **minibatch optimal transport**. My [thesis defense](https://www.youtube.com/watch?v=paqpidEnnHw) and [manuscript](pdf/thesis_kf.pdf) are available online.
 
 My résumé can be found [here](pdf/cv_kilian_fatras.pdf) *(last updated: April 2025)*. Outside of research, I enjoy exploring New York City with my wife and love getting outdoors—whether it's **hiking** in the Hudson Valley or **scuba diving** in the Caribbean.
 
@@ -84,4 +84,4 @@ For a complete list of my publications, visit my [Google Scholar](https://schola
 
 ---
 
-**Feel free to reach out** if you’re interested in collaborating or discussing any of these research areas!
+**Feel free to reach out** if you’re interested in discussing any of these research areas!

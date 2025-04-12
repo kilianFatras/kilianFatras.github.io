@@ -77,3 +77,5 @@ For a comprehensive list of my published works, visit my [Google Scholar](https:
    - Advancing **deep generative models**  for **3D protein backbone generation** and **sequence design**.  
    - Exploring **molecular evolution** using AI-driven techniques to predict novel, functional proteins.
    - Innovating in **protein-protein interactions** by using **spatial constraints**, **evolutionary information**, and **machine learning-based docking strategies** to design optimized multimeric structures and binders.
+
+Do not hesitate to reach out if you want to connect and discuss any of these topics!

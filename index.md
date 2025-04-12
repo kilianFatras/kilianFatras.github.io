@@ -1,6 +1,5 @@
 ---
 layout: default
-title: About
 ---
 
 <style>
@@ -52,30 +51,37 @@ p {
         <img src="images/kilian_new.jpg" alt="Profile Picture" class="profile-image">
     </div>
     <div class="bio-text">
-        <h2><b>Kilian Fatras</b></h2>
-        <h3><b>Machine Learning Research Scientist at EvolutionaryScale</b></h3>
+        <h2><b>Machine Learning Research Scientist</b></h2>
+        <h3>Training Foundation Models to Decode the Complexity of Life</h3>
     </div>
 </div>
 <br>
+
 ## **About Me**
-I am a **machine learning research scientist** at [EvolutionaryScale](https://www.evolutionaryscale.ai/). For the past couple of years, I have worked on **protein design** and **generative modeling**. My expertise lies at the intersection of **computational biology** and **generative AI**, where I leverage advanced **generative models** (protein language models and diffusion-like models) to **design functional proteins** for real-world applications in **drug discovery and structural biology**. My resume can be found [here](pdf/cv_kilian_fatras.pdf) (updated on 2025-04).
 
-Previously, I was a **Postdoctoral Fellow** at **Mila** and **McGill University** in the beautiful city of Montréal. I worked under the mentorship of **Prof. Adam Oberman** and **Prof. Ioannis Mitliagkas**. During this time, I focused on **generative models**, **distribution shifts** and **optimal transport**. In terms of applications, I started to work on computational biology by applying these algorithms on single-cell trajectory. I also spent some time on open-source software by co-creating the **TorchCFM** library, which open-sources our work on **Flow Matching generative models**.
+I am a **machine learning research scientist** at [EvolutionaryScale](https://www.evolutionaryscale.ai/). Leveraging my expertise in **computational biology** and **generative AI**, I build **foundation models**—from protein language models to diffusion-based architectures—to **understand biological systems** and **design functional proteins** for real-world applications in **drug discovery** and **structural biology**.
 
-I completed my **PhD** under the supervision of **Prof. Nicolas Courty** and **Prof. Rémi Flamary**. I had the chance to be at **INRIA Rennes** in Brittany (my native French region). I worked on the intersection of **optimal transport** and **deep learning**, with applications in **domain adaptation**, **noisy labels**, and **generative modeling**. I especially developed a strong expertise on optimal transport and its minibatch approximation. The full recording of my thesis defense can be found [here](https://www.youtube.com/watch?v=paqpidEnnHw) and the manuscript is available [here](pdf/thesis_kf.pdf).
+Previously, I was a **Postdoctoral Fellow** at **Mila** and **McGill University** in Montréal, where I worked under the mentorship of **Prof. Adam Oberman** and **Prof. Ioannis Mitliagkas**. My research during this time focused on **generative modeling**, **distribution shifts**, and **optimal transport**. I began applying these methods to **single-cell trajectory inference** and **protein design**, and I co-created the open-source **[TorchCFM](https://github.com/torchcfm/torchcfm)** library to share our work on **Flow Matching generative models**.
 
-Beyond my research, I enjoy exploring New York City with my wife. We also spend some time outside the city, whether it's **hiking** or **scuba diving** when we are in the Caribbean.
+I completed my **PhD** at **INRIA Rennes** in Brittany, France, under the supervision of **Prof. Nicolas Courty** and **Prof. Rémi Flamary**. My work explored the intersection of **optimal transport** and **deep learning**, with applications to **domain adaptation**, **noisy label learning**, and **generative modeling**. I developed expertise in **minibatch approximations for optimal transport**, and my [thesis defense](https://www.youtube.com/watch?v=paqpidEnnHw) and [manuscript](pdf/thesis_kf.pdf) are both available online.
+
+My résumé can be found [here](pdf/cv_kilian_fatras.pdf) *(last updated: April 2025)*. Outside of research, I enjoy exploring New York City with my wife and love getting outdoors—whether it's **hiking** in the Hudson Valley or **scuba diving** in the Caribbean.
+
+---
 
 ## **Research Interests**
-For a comprehensive list of my published works, visit my [Google Scholar](https://scholar.google.ca/citations?hl=fr&user=DHMjyDgAAAAJ&view_op=list_works). My current research areas include:
 
-- **New Generative Models**  
-   - Designing innovative **diffusion models** and **flow matching** methods for protein-related tasks, images, and tabular data.  
-   - Exploring cutting-edge approaches in **masked language models**, such as **discrete diffusion** and **discrete flow matching**, to push the boundaries of generative modeling and protein design.
+For a complete list of my publications, visit my [Google Scholar](https://scholar.google.ca/citations?hl=fr&user=DHMjyDgAAAAJ&view_op=list_works). My current areas of focus include:
+
+- **Next-Generation Generative Models**  
+   - Designing novel **diffusion models** and **flow matching techniques** for protein modeling, computer vision, and tabular data.  
+   - Advancing **discrete generative modeling** through **masked language models**, **discrete diffusion**, and **discrete flow matching**.
 
 - **Protein Structure and Sequence Generation**  
-   - Advancing **deep generative models**  for **3D protein backbone generation** and **sequence design**.  
-   - Exploring **molecular evolution** using AI-driven techniques to predict novel, functional proteins.
-   - Innovating in **protein-protein interactions** by using **spatial constraints**, **evolutionary information**, and **machine learning-based docking strategies** to design optimized multimeric structures and binders.
+   - Building deep generative frameworks for **3D protein backbone generation** and **sequence optimization**.  
+   - Modeling **molecular evolution** and generating **functional proteins** through learned priors and structure-aware objectives.  
+   - Engineering **protein-protein interactions**, **binder design**, and **multimer assembly** via **spatial constraints**, **evolutionary signals**, and **machine learning-based docking**.
 
-Do not hesitate to reach out if you want to connect and discuss any of these topics!
+---
+
+**Feel free to reach out** if you’re interested in collaborating or discussing any of these research areas!

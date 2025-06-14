@@ -59,7 +59,7 @@ p {
 
 ## **About Me**
 
-I am a **machine learning research scientist** at [EvolutionaryScale](https://www.evolutionaryscale.ai/). I work at the intersection of machine learning and computational biology. In a nutshell, I train **foundation models**—from protein language models to diffusion-based architectures—to **understand and design proteins** for real-world applications in **drug discovery** and **biology**.
+I am a **machine learning research scientist** at [EvolutionaryScale](https://www.evolutionaryscale.ai/). I work at the intersection of machine learning and computational biology. In a nutshell, I train **foundation models** (from diffusion models to protein language models) to **understand and design proteins** for real-world applications in **drug discovery** and **biology**.
 
 Previously, I was a **Postdoctoral Fellow** at **Mila** and **McGill University** in Montréal, where I worked with **Prof. Adam Oberman** and **Prof. Ioannis Mitliagkas**. My research during this time focused on **generative modeling**, **distribution shifts**, and **optimal transport**. I applied some of these methods to biological applications like **single-cell trajectory inference** and **protein design**. I also co-created the open-source [TorchCFM](https://github.com/atong01/conditional-flow-matching) package to share our work on **Flow Matching models**.
 
@@ -73,15 +73,11 @@ My résumé can be found [here](pdf/cv_kilian_fatras.pdf) *(last updated: April 
 
 For a complete list of my publications, visit my [Google Scholar](https://scholar.google.ca/citations?hl=fr&user=DHMjyDgAAAAJ&view_op=list_works). My current areas of focus include:
 
-- **Next-Generation Generative Models**  
-   - Designing novel **diffusion models** and **flow matching techniques** for protein modeling, computer vision, and tabular data.  
-   - Advancing **discrete generative modeling** through discrete flow matching and discrete diffusion models.
-
-- **Protein Structure and Sequence Generation**
-   - Developing **multi-modal protein models** for folding, inverse folding, unconditional and conditional protein generation.
-   - Engineering **protein-protein interactions**, **binder design**, and **multimer assembly** via sequence and structure-based conditional methods.
-   - Extracting meaningful protein information from **protein language models**.
-   - Designing scalable and computationally efficient architectures for protein modeling.
+- Designing novel **diffusion models** and **flow matching techniques** for protein modeling, computer vision, and tabular data.  
+- Developing **multi-modal protein models** for folding, inverse folding, unconditional and conditional protein generation.
+- Designing **binders** against therapeutically relevant targets via **sequence and structure-based conditional methods**.
+- Extracting meaningful protein information from **protein language models**.
+- Designing **scalable and computationally efficient architectures** for protein modeling.
 
 ---
 

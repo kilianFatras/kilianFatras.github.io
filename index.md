@@ -7,44 +7,65 @@ layout: default
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
-.profile-image {
-    width: 200px; /* Adjust size */
-    height: 200px;
+.profile-image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    flex-shrink: 0;
+}
+
+.profile-image,
+.profile-image-hover {
+    width: 100%;
+    height: auto;
     border-radius: 0%;
-    transition: opacity 0.3s ease; /* Smooth transition */
+    transition: opacity 0.3s ease;
+    display: block;
 }
 
 .profile-image-hover {
-    width: 200px; /* Adjust size */
-    height: 200px;
-    border-radius: 0%;
-    opacity: 0; /* Hide the second image by default */
-    transition: opacity 0.3s ease; /* Smooth transition */
-    position: absolute; /* Position it on top of the first image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
 }
 
 .profile-container:hover .profile-image {
-    opacity: 0; /* Hide the original image on hover */
+    opacity: 0;
 }
 
 .profile-container:hover .profile-image-hover {
-    opacity: 1; /* Show the second image on hover */
+    opacity: 1;
 }
 
 .bio-text {
     max-width: 600px;
-    text-align: justify; /* Justification du texte */
+    text-align: justify;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 600px) {
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bio-text {
+        max-width: 90%;
+    }
 }
 
 p {
-    text-align: justify; /* Justification des paragraphes */
+    text-align: justify;
 }
 </style>
 
 <div class="profile-container">
-    <div style="position: relative;">
+    <div class="profile-image-wrapper">
         <!-- Hover Image (another picture shown on hover) -->
         <img src="images/kilian_poisson_clown.jpg" alt="Profile Picture Hover" class="profile-image-hover">
         <!-- Original Profile Picture -->

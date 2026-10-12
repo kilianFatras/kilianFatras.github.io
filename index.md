@@ -67,12 +67,12 @@ p {
 <div class="profile-container">
     <div class="profile-image-wrapper">
         <!-- Hover Image (another picture shown on hover) -->
-        <img src="images/kilian_poisson_clown.jpg" alt="Profile Picture Hover" class="profile-image-hover">
+        <img src="images/kilian_poisson_clown.jpg" alt="Kilian Fatras in a clown fish costume" class="profile-image-hover">
         <!-- Original Profile Picture -->
-        <img src="images/kilian_new.jpg" alt="Profile Picture" class="profile-image">
+        <img src="images/kilian_new.jpg" alt="Kilian Fatras" class="profile-image">
     </div>
     <div class="bio-text">
-        <h2><b>Machine Learning Research Scientist</b></h2>
+        <h2><b>Senior Machine Learning Research Scientist</b></h2>
         <h3>Training Foundation Models to Decode the Complexity of Life</h3>
     </div>
 </div>
@@ -80,26 +80,24 @@ p {
 
 ## **About Me**
 
-I am a **machine learning research scientist** at [EvolutionaryScale](https://www.evolutionaryscale.ai/). I work at the intersection of machine learning and computational biology. In a nutshell, I train **foundation models** (from diffusion models to protein language models) to **understand and design proteins** for real-world applications in **drug discovery** and **biology**.
+I'm a **senior machine learning research scientist** at [Biohub](https://biohub.ai/), previously at [EvolutionaryScale](https://www.evolutionaryscale.ai/). I work at the intersection of machine learning and computational biology, training foundation models, from diffusion models to protein language models, to understand and design proteins for drug discovery and biology. Most recently, I was a core contributor to **ESMFold2**, where I doubled its model FLOPs utilization (MFU), making it the fastest open-source protein folding model.
 
-Previously, I was a **Postdoctoral Fellow** at **Mila** and **McGill University** in Montréal, where I worked with **Prof. Adam Oberman** and **Prof. Ioannis Mitliagkas**. My research during this time focused on **generative modeling**, **distribution shifts**, and **optimal transport**. I applied some of these methods to biological applications like **single-cell trajectory inference** and **protein design**. I also co-created the open-source [TorchCFM](https://github.com/atong01/conditional-flow-matching) package to share our work on **Flow Matching models**.
+Before that, I was a postdoctoral fellow at **Mila** and **McGill University** in Montréal, working with Prof. Adam Oberman and Prof. Ioannis Mitliagkas on generative modeling, distribution shifts, and optimal transport, with applications to single-cell trajectory inference and protein design. I also co-created [**TorchCFM**](https://github.com/atong01/conditional-flow-matching), an open-source library for flow matching models with over 400k downloads..
 
-I completed my **PhD** at **INRIA Rennes** in Brittany, France, under the supervision of **Prof. Nicolas Courty** and **Prof. Rémi Flamary**. My work explored the intersection of **optimal transport** and **deep learning**, with applications to **domain adaptation**, **learning with noisy labels**, and **generative modeling**. Another core element of my PhD was the study of **minibatch optimal transport**. My [thesis defense](https://www.youtube.com/watch?v=paqpidEnnHw) and [manuscript](pdf/thesis_kf.pdf) are available online.
-
-My résumé can be found [here](pdf/cv_kilian_fatras.pdf) *(last updated: April 2025)*. Outside of research, I enjoy exploring New York City with my wife and love getting outdoors—whether it's **hiking** in the Hudson Valley or **scuba diving** in the Caribbean.
-
----
+I did my PhD at **INRIA Rennes** in Brittany, France, under the supervision of Prof. Nicolas Courty and Prof. Rémi Flamary. My work explored the intersection of optimal transport and deep learning, with applications to domain adaptation, learning with noisy labels, and generative modeling. A central thread was minibatch optimal transport, which later became a building block of our flow matching work. My [thesis defense](https://www.youtube.com/watch?v=paqpidEnnHw) and [manuscript](pdf/thesis_kf.pdf) are available online, and my résumé is [here](pdf/cv_kilian_fatras.pdf).
 
 ## **Research Interests**
 
-For a complete list of my publications, visit my [Google Scholar](https://scholar.google.ca/citations?hl=fr&user=DHMjyDgAAAAJ&view_op=list_works). My current areas of focus include:
+My current focus areas include:
 
-- Designing novel **diffusion models** and **flow matching techniques** for protein modeling, computer vision, and tabular data.  
-- Developing **multi-modal protein models** for folding, inverse folding, unconditional and conditional protein generation.
-- Designing **binders** against therapeutically relevant targets via **sequence and structure-based conditional methods**.
-- Extracting meaningful protein information from **protein language models**.
-- Designing **scalable and computationally efficient architectures** for protein modeling.
+- Developing novel **diffusion and flow matching** methods for protein modeling, computer vision, and tabular data.
+- Building **multi-modal protein models** for folding, inverse folding, and unconditional and conditional protein generation.
+- Designing **binders** against therapeutically relevant targets using sequence- and structure-based conditional methods.
+- Extracting meaningful biological information from **protein language models**.
+- Creating **scalable, computationally efficient architectures** for protein modeling.
+
+For a complete list of publications, see my [Google Scholar](https://scholar.google.com/citations?hl=en&user=DHMjyDgAAAAJ&view_op=list_works).
 
 ---
 
-**Feel free to reach out** if you’re interested in discussing any of these research areas!
+**Feel free to reach out** by email or on LinkedIn (links below) if you'd like to discuss any of these topics!
